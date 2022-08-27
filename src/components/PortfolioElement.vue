@@ -3,7 +3,11 @@
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white pb-3">Portfolio</h2>
       <div class="container bg-custom">
-        <div class="row">
+        <div v-if="loading">
+          <h1>loading</h1>
+        </div>
+
+        <div class="row" v-if="!loading">
           <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
             <img
               src="@/assets/img/netflix.png"
