@@ -1,0 +1,22 @@
+.hello {
+  background-color: rgb(62, 62, 62);
+}
+.bg-custom {
+  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  filter: drop-shadow(2px 4px 6px black);
+}
+.bg-custom2 {
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  filter: drop-shadow(2px 4px 6px black);
+}
+
+.fa-2xl {
+  color: white;
+  &:hover {
+    color: #40ff00;
+  }
+}
+
+.style-none {
+  text-decoration: none;
+}
