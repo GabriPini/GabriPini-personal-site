@@ -3,50 +3,22 @@
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white pb-3">Portfolio</h2>
       <div class="container bg-custom">
-        <div class="row">
-          <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
+        <div class="row" v-if="portfolios">
+          <div
+            class="col-12 col-md-6 mt-2 mb-2 zoom-effect"
+            v-for="image in portfolios"
+            :key="image.index"
+          >
             <img
-              src="@/assets/img/netflix.png"
+              :src="image.src"
               class="custom-img shadow lazy"
-              alt="netflix-copy"
+              :alt="image.alt"
             />
           </div>
+        </div>
 
-          <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
-            <img
-              src="@/assets/img/discord.png"
-              class="custom-img shadow lazy"
-              alt="discord-copy"
-            />
-          </div>
-          <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
-            <img
-              src="@/assets/img/dropbox.png"
-              class="custom-img shadow lazy"
-              alt="dropbox-copy"
-            />
-          </div>
-          <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
-            <img
-              src="@/assets/img/ps.png"
-              class="custom-img shadow lazy"
-              alt="psstore-copy"
-            />
-          </div>
-          <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
-            <img
-              src="@/assets/img/spotify.png"
-              class="custom-img shadow lazy"
-              alt="spotify-copy"
-            />
-          </div>
-          <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
-            <img
-              src="@/assets/img/zalando.png"
-              class="custom-img shadow lazy"
-              alt="Zalando-copy"
-            />
-          </div>
+        <div class="row" v-else>
+          <h4 class="mt-2 fw-bold">Content Loading</h4>
         </div>
       </div>
     </div>
@@ -59,6 +31,37 @@
 <script>
 export default {
   name: "PortfolioElement",
+
+  data() {
+    return {
+      portfolios: [
+        {
+          src: require("@/assets/img/netflix.png"),
+          alt: "neflix-copy",
+        },
+        {
+          src: require("@/assets/img/discord.png"),
+          alt: "discord-copy",
+        },
+        {
+          src: require("@/assets/img/dropbox.png"),
+          alt: "dropbox-copy",
+        },
+        {
+          src: require("@/assets/img/ps.png"),
+          alt: "ps-copy",
+        },
+        {
+          src: require("@/assets/img/spotify.png"),
+          alt: "spotify-copy",
+        },
+        {
+          src: require("@/assets/img/zalando.png"),
+          alt: "zalando-copy",
+        },
+      ],
+    };
+  },
 };
 </script>
 
