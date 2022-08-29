@@ -1,7 +1,7 @@
 <template>
-  <div id="app" class="d-flex flex-row">
-    <NavSite class="col-3 col-sm-2 custom-h"></NavSite>
-    <HelloWorld class="col-11 col-sm-10" msg="Welcome to Your Vue.js App" />
+  <div id="app" class="d-flex flex-column flex-sm-row">
+    <NavSite class="col-12 col-sm-2 custom-h"></NavSite>
+    <HelloWorld class="col-12 col-sm-10" msg="Welcome to Your Vue.js App" />
   </div>
 </template>
 

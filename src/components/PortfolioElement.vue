@@ -3,48 +3,48 @@
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white pb-3">Portfolio</h2>
       <div class="container bg-custom">
-        <div v-if="loading">
-          <h1>loading</h1>
-        </div>
-
-        <div class="row" v-if="!loading">
+        <div class="row">
           <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
             <img
               src="@/assets/img/netflix.png"
-              class="custom-img shadow"
-              alt=""
+              class="custom-img shadow lazy"
+              alt="netflix-copy"
             />
           </div>
 
           <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
             <img
               src="@/assets/img/discord.png"
-              class="custom-img shadow"
-              alt=""
+              class="custom-img shadow lazy"
+              alt="discord-copy"
             />
           </div>
           <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
             <img
               src="@/assets/img/dropbox.png"
-              class="custom-img shadow"
-              alt=""
+              class="custom-img shadow lazy"
+              alt="dropbox-copy"
             />
           </div>
           <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
-            <img src="@/assets/img/ps.png" class="custom-img shadow" alt="" />
+            <img
+              src="@/assets/img/ps.png"
+              class="custom-img shadow lazy"
+              alt="psstore-copy"
+            />
           </div>
           <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
             <img
               src="@/assets/img/spotify.png"
-              class="custom-img shadow"
-              alt=""
+              class="custom-img shadow lazy"
+              alt="spotify-copy"
             />
           </div>
           <div class="col-12 col-md-6 mt-2 mb-2 zoom-effect">
             <img
               src="@/assets/img/zalando.png"
-              class="custom-img shadow"
-              alt=""
+              class="custom-img shadow lazy"
+              alt="Zalando-copy"
             />
           </div>
         </div>

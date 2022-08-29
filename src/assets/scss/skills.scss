@@ -32,7 +32,6 @@ $porcent-angular: 80;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  min-width: 270px;
   width: 100%;
   min-height: 100%;
 }
@@ -92,28 +91,28 @@ $porcent-angular: 80;
 
 .circle {
   &-html {
-    animation: anim_circle-html 1s ease-in-out forwards;
+    animation: anim_circle-html 3s ease-in-out forwards;
   }
   &-css {
-    animation: anim_circle-css 1s ease-in-out forwards;
+    animation: anim_circle-css 3s ease-in-out forwards;
   }
   &-scss {
-    animation: anim_circle-scss 1s ease-in-out forwards;
+    animation: anim_circle-scss 3s ease-in-out forwards;
   }
   &-js {
-    animation: anim_circle-js 1s ease-in-out forwards;
+    animation: anim_circle-js 3s ease-in-out forwards;
   }
   &-ts {
-    animation: anim_circle-ts 1s ease-in-out forwards;
+    animation: anim_circle-ts 3s ease-in-out forwards;
   }
   &-node {
-    animation: anim_circle-node 1s ease-in-out forwards;
+    animation: anim_circle-node 3s ease-in-out forwards;
   }
   &-react {
-    animation: anim_circle-react 1s ease-in-out forwards;
+    animation: anim_circle-react 3s ease-in-out forwards;
   }
   &-angular {
-    animation: anim_circle-angular 1s ease-in-out forwards;
+    animation: anim_circle-angular 3s ease-in-out forwards;
   }
 }
 

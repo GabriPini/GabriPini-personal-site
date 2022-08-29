@@ -8,7 +8,7 @@
 .zoom-effect {
   transition: 0.3s;
   &:hover {
-    transform: scale(1.2);
     z-index: 4;
+    transform: scale(1.2);
   }
 }
