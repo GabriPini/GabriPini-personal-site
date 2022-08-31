@@ -1,18 +1,17 @@
 <template>
   <div id="app" class="d-flex flex-column flex-sm-row">
     <NavSite class="col-12 col-sm-2 custom-h"></NavSite>
-    <HelloWorld class="col-12 col-sm-10" msg="Welcome to Your Vue.js App" />
+
+    <router-view class="col-12 col-sm-10" />
   </div>
 </template>
 
 <script>
 import NavSite from "./components/NavSite.vue";
-import HelloWorld from "./components/HelloWorld.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld,
     NavSite,
   },
 };

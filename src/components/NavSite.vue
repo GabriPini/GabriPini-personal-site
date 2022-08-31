@@ -5,23 +5,26 @@
     >
       <div class="container d-flex flex-column text-center">
         <div class="logo">
-          <a class="" href="#"
+          <router-link to="/"
             ><img class="img-fluid" src="@/assets/img/avatar.png" alt=""
-          /></a>
+          /></router-link>
         </div>
         <div>
           <ul class="navbar-nav d-flex flex-column mt-2 me-2 text-center">
-            <li class="nav-item">
-              <a class="nav-link pt-5" href="#about">About</a>
+            <li class="nav-item pt-2">
+              <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link pt-5" href="#skills">Skills</a>
+            <li class="nav-item pt-2">
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link pt-5" href="#portfolio">Portfolio</a>
+            <li class="nav-item pt-2">
+              <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link pt-5" href="#contact">Contact</a>
+            <li class="nav-item pt-2">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item pt-2">
+              <router-link to="/Game" class="decoration-none">Game</router-link>
             </li>
           </ul>
         </div>
@@ -53,5 +56,10 @@ export default {
       color: #2bff00;
     }
   }
+}
+
+.decoration-none {
+  text-decoration: none;
+  color: #9c9c9c;
 }
 </style>
