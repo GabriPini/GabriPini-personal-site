@@ -1,8 +1,8 @@
 <template>
-  <div id="app" class="d-flex flex-column flex-sm-row">
-    <NavSite class="col-12 col-sm-2 custom-h"></NavSite>
+  <div id="app" class="d-flex flex-column">
+    <NavSite class="col-12 custom-h"></NavSite>
 
-    <router-view class="col-12 col-sm-10" />
+    <router-view class="col-12" />
   </div>
 </template>
 
@@ -27,8 +27,6 @@ export default {
 }
 
 .custom-h {
-  min-height: 100vh;
-
   background-image: linear-gradient(to right, #434343 0%, black 100%);
   filter: drop-shadow(2px 4px 6px black);
 }

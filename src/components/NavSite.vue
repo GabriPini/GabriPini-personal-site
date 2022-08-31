@@ -1,29 +1,29 @@
 <template>
   <div>
     <nav
-      class="navbar d-flex justify-content-center align-items-center navbar-dark bg-darker"
+      class="navbar d-flex justify-content-center align-items-center navbar-dark bg-darker container"
     >
-      <div class="container d-flex flex-column text-center">
-        <div class="logo">
-          <router-link to="/"
-            ><img class="img-fluid" src="@/assets/img/avatar.png" alt=""
-          /></router-link>
-        </div>
+      <div class="logo">
+        <router-link to="/"
+          ><img class="img-fluid" src="@/assets/img/avatar.png" alt=""
+        /></router-link>
+      </div>
+      <div class="container d-flex justify-content-center">
         <div>
-          <ul class="navbar-nav d-flex flex-column mt-2 me-2 text-center">
-            <li class="nav-item pt-2">
+          <ul class="navbar-nav d-flex flex-row mt-2 text-center flex-wrap">
+            <li class="nav-item p-2">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item pt-2">
+            <li class="nav-item p-2">
               <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="nav-item pt-2">
+            <li class="nav-item p-2">
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item pt-2">
+            <li class="nav-item p-2">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
-            <li class="nav-item pt-2">
+            <li class="nav-item p-3">
               <router-link to="/Game" class="decoration-none">Game</router-link>
             </li>
           </ul>
@@ -51,6 +51,13 @@ export default {
   position: sticky;
   top: 3%;
   a {
+    font-weight: bold;
+    &:hover {
+      color: #2bff00;
+    }
+  }
+
+  router-link {
     font-weight: bold;
     &:hover {
       color: #2bff00;

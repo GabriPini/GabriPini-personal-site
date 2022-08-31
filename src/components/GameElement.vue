@@ -1,6 +1,6 @@
 <template>
-  <div class="body col-sm-12">
-    <header>
+  <div class="body">
+    <header class="container">
       <h3>Guess My Number!</h3>
       <p class="between">(Between 1 and 20)</p>
       <button class="btns again" @click="again()">Again!</button>
@@ -146,7 +146,7 @@ main {
 
 .right {
   width: 100%;
-  font-size: 1.5rem;
+  /*  font-size: 1.5rem; */
 }
 
 /* ELEMENTS STYLE */
