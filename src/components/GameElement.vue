@@ -1,12 +1,12 @@
 <template>
-  <div class="body">
+  <div class="body col-sm-12">
     <header>
       <h3>Guess My Number!</h3>
       <p class="between">(Between 1 and 20)</p>
       <button class="btns again" @click="again()">Again!</button>
       <div class="number">?</div>
     </header>
-    <main class="d-flex flex-column flex-md-row">
+    <main class="d-flex flex-column flex-sm-row">
       <section class="left">
         <input type="number" class="guess" />
         <button class="btns check" @click="checks()">Check!</button>
