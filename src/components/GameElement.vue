@@ -58,7 +58,7 @@ export default {
           this.displayMessage("🥳 Correct Number!");
           document.querySelector(".body").style.backgroundImage =
             "linear-gradient(-60deg, #ff5858 0%, #f09819 100%)";
-          document.querySelector(".number").style.width = "30rem";
+          document.querySelector(".number").style.width = "10rem";
           document.querySelector(".number").textContent = this.secretNumber;
 
           if (this.realScore > this.highscore) {
