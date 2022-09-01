@@ -16,12 +16,12 @@ $color-angular: #ff3333;
 
 $porcent-html: 100;
 $porcent-css: 100;
-$porcent-scss: 70;
-$porcent-js: 60;
-$porcent-ts: 90;
-$porcent-node: 60;
-$porcent-react: 60;
-$porcent-angular: 60;
+$porcent-scss: 100;
+$porcent-js: 100;
+$porcent-ts: 100;
+$porcent-node: 100;
+$porcent-react: 100;
+$porcent-angular: 100;
 
 @function strokeDashoffset($num) {
   @return 440 - (440 * $num) / 100;
