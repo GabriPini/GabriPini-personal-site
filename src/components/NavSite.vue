@@ -40,7 +40,13 @@ export default {
   name: "NavSite",
   computed: {
     isHome() {
-      return this.$route.path == "/";
+      return (
+        this.$route.path == "/" ||
+        this.$route.path == "/about" ||
+        this.$route.path == "/skills" ||
+        this.$route.path == "/portfolio" ||
+        this.$route.path == "/contact"
+      );
     },
   },
 };
