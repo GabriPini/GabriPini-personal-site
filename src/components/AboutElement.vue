@@ -9,7 +9,8 @@
           technology and design, from software engineering to UI/UX. In addition
           to my love of technology and design, I am also interested in
           videogames. Below are details of some of the projects I have developed
-          during my coding experience.
+          during my coding experience and also a link to my peronsal github
+          page.
         </em>
       </p>
     </div>

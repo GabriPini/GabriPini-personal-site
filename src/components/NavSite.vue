@@ -10,17 +10,19 @@
       </div>
       <div class="container d-flex justify-content-center">
         <div>
-          <ul class="navbar-nav d-flex flex-row mt-2 text-center flex-wrap">
-            <li class="nav-item p-2">
+          <ul
+            class="navbar-nav d-flex flex-row mt-2 flex-wrap justify-content-center align-items-center"
+          >
+            <li class="nav-item p-2" v-if="isHome">
               <a class="nav-link" href="#about">About</a>
             </li>
-            <li class="nav-item p-2">
+            <li class="nav-item p-2" v-if="isHome">
               <a class="nav-link" href="#skills">Skills</a>
             </li>
-            <li class="nav-item p-2">
+            <li class="nav-item p-2" v-if="isHome">
               <a class="nav-link" href="#portfolio">Portfolio</a>
             </li>
-            <li class="nav-item p-2">
+            <li class="nav-item p-2" v-if="isHome">
               <a class="nav-link" href="#contact">Contact</a>
             </li>
             <li class="nav-item p-3">
@@ -36,6 +38,11 @@
 <script>
 export default {
   name: "NavSite",
+  computed: {
+    isHome() {
+      return this.$route.path == "/";
+    },
+  },
 };
 </script>
 
