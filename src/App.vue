@@ -18,6 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
+@import "@/assets/scss/style.scss";
 @import "bootstrap";
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
