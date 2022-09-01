@@ -3,7 +3,6 @@
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white pb-3">Contact</h2>
       <p class="lead text-white">Email : lele19977@gmail.com</p>
-      <p class="lead text-white">phone: +39 333 5360136</p>
 
       <a
         href="https://www.linkedin.com/in/gabriele-pini-3989691a4/"
