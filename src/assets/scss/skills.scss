@@ -20,8 +20,8 @@ $porcent-scss: 70;
 $porcent-js: 60;
 $porcent-ts: 90;
 $porcent-node: 60;
-$porcent-react: 80;
-$porcent-angular: 80;
+$porcent-react: 60;
+$porcent-angular: 60;
 
 @function strokeDashoffset($num) {
   @return 440 - (440 * $num) / 100;

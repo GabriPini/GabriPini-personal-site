@@ -84,7 +84,7 @@
               class="progressbar__svg-circle circle-react shadow-react"
             ></circle>
           </svg>
-          <span class="progressbar__text shadow-react">Laravel <br />80%</span>
+          <span class="progressbar__text shadow-react">Laravel <br />60%</span>
         </div>
         <div class="progressbar">
           <svg class="progressbar__svg">
@@ -95,7 +95,7 @@
               class="progressbar__svg-circle circle-angular shadow-angular"
             ></circle>
           </svg>
-          <span class="progressbar__text shadow-angular">Php <br />80%</span>
+          <span class="progressbar__text shadow-angular">Php <br />60%</span>
         </div>
       </div>
     </div>
