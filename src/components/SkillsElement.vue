@@ -1,5 +1,5 @@
 <template>
-  <div id="skills" class="p-5 bg-custom" data-aos="fade-up">
+  <div id="skills" class="p-5 bg-custom cyber-section" data-aos="fade-up">
     <h2 class="display-3 fw-bold text-white">Skills</h2>
     <div class="container bg-custom2">
       <div class="container__progressbars">

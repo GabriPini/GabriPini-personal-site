@@ -1,5 +1,5 @@
 <template>
-  <div id="portfolio" class="p-5 bg-custom2" data-aos="fade-up">
+  <div id="portfolio" class="p-5 bg-custom2 cyber-section" data-aos="fade-up">
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white pb-3">Portfolio</h2>
       <div class="container bg-custom">
