@@ -1,5 +1,5 @@
 <template>
-  <div id="contact" class="p-5 bg-custom">
+  <div id="contact" class="p-5 bg-custom" data-aos="fade-up">
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white pb-3">Contact</h2>
       <p class="lead text-white">Email : lele19977@gmail.com</p>

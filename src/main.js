@@ -9,6 +9,8 @@ Vue.use(VueRouter);
 const router = new VueRouter({ routes });
 
 import "bootstrap";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { library } from "@fortawesome/fontawesome-svg-core";
 
@@ -25,6 +27,7 @@ library.add(faUserSecret, faLinkedin, faGithub);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.config.productionTip = false;
+AOS.init();
 
 new Vue({
   router,
