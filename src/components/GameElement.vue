@@ -1,5 +1,5 @@
 <template>
-  <div class="body">
+  <div class="body" data-aos="fade-up">
     <header class="container">
       <h3>Guess My Number!</h3>
       <p class="between">(Between 1 and 20)</p>

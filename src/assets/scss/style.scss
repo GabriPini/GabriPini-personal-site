@@ -3,14 +3,16 @@
 }
 
 body {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'Inter', 'Poppins', Arial, sans-serif;
+  background-color: #121212;
+  color: #f1f1f1;
 }
 .bg-custom {
-  background-image: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
+  background-image: linear-gradient(135deg, #1f4037, #99f2c8);
   filter: drop-shadow(2px 4px 6px black);
 }
 .bg-custom2 {
-  background-image: linear-gradient(to right, #232526, #414345);
+  background-image: linear-gradient(135deg, #1d4350, #a43931);
   filter: drop-shadow(2px 4px 6px black);
 }
 

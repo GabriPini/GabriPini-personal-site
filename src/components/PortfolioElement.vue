@@ -1,11 +1,12 @@
 <template>
-  <div id="portfolio" class="p-5 bg-custom2">
+  <div id="portfolio" class="p-5 bg-custom2" data-aos="fade-up">
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white pb-3">Portfolio</h2>
       <div class="container bg-custom">
         <div class="row" v-if="portfolios">
           <div
             class="col-12 col-md-6 mt-2 mb-2 zoom-effect"
+            data-aos="zoom-in"
             v-for="image in portfolios"
             :key="image.index"
           >

@@ -2,6 +2,7 @@
   <div>
     <nav
       class="navbar d-flex justify-content-center align-items-center navbar-dark bg-darker container"
+      data-aos="fade-down"
     >
       <div class="logo">
         <router-link to="/"
