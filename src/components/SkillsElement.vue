@@ -27,17 +27,6 @@
           <span class="progressbar__text shadow-css">CSS</span>
         </div>
 
-        <div class="progressbar">
-          <svg class="progressbar__svg">
-            <circle
-              cx="80"
-              cy="80"
-              r="70"
-              class="progressbar__svg-circle circle-scss shadow-scss"
-            ></circle>
-          </svg>
-          <span class="progressbar__text shadow-scss">SCSS</span>
-        </div>
 
         <div class="progressbar">
           <svg class="progressbar__svg">
@@ -60,7 +49,7 @@
               class="progressbar__svg-circle circle-ts shadow-ts"
             ></circle>
           </svg>
-          <span class="progressbar__text shadow-ts">Bootstrap</span>
+          <span class="progressbar__text shadow-ts">PHP</span>
         </div>
 
         <div class="progressbar">
@@ -72,7 +61,7 @@
               class="progressbar__svg-circle circle-node shadow-node"
             ></circle>
           </svg>
-          <span class="progressbar__text shadow-node">Vue.js</span>
+          <span class="progressbar__text shadow-node">Laravel</span>
         </div>
 
         <div class="progressbar">
@@ -84,7 +73,7 @@
               class="progressbar__svg-circle circle-react shadow-react"
             ></circle>
           </svg>
-          <span class="progressbar__text shadow-react">Laravel</span>
+          <span class="progressbar__text shadow-react">ReactJS</span>
         </div>
         <div class="progressbar">
           <svg class="progressbar__svg">
@@ -95,7 +84,7 @@
               class="progressbar__svg-circle circle-angular shadow-angular"
             ></circle>
           </svg>
-          <span class="progressbar__text shadow-angular">Php</span>
+          <span class="progressbar__text shadow-angular">Tailwind</span>
         </div>
       </div>
     </div>
