@@ -5,7 +5,7 @@
         <em>Gabriele Pini</em>
       </h2>
       <p class="lead text-white cyber-glow">
-        <em>Jr. Full Stack Web Developer</em>
+        <em>Full Stack Web Developer</em>
       </p>
       <img class="img-fluid mb-3" src="@/assets/img/avatar.png" alt="" />
     </div>
