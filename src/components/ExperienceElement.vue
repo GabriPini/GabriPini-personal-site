@@ -5,8 +5,7 @@
       <p class="lead text-white">A quick overview of my recent journey.</p>
       <ul class="list-unstyled text-start m-auto max-w-600">
         <li>2022 - Completed online academy at BooleanCareers</li>
-        <li>2023 - Built projects with Vue and Laravel</li>
-        <li>Currently - Exploring game development and new frameworks</li>
+        <li>Currently - Working with Perspectiveweb and Codetalkers</li>
       </ul>
     </div>
   </div>
