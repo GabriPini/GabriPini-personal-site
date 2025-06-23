@@ -4,6 +4,8 @@
 
     <AboutElement></AboutElement>
 
+    <ExperienceElement></ExperienceElement>
+
     <SkillsElement></SkillsElement>
 
     <PortfolioElement></PortfolioElement>
@@ -20,12 +22,14 @@
 import AboutElement from "./AboutElement.vue";
 import JumboElement from "./JumboElement.vue";
 import SkillsElement from "./SkillsElement.vue";
+import ExperienceElement from "./ExperienceElement.vue";
 import PortfolioElement from "./PortfolioElement.vue";
 import ContactElement from "./ContactElement.vue";
 export default {
   components: {
     JumboElement,
     AboutElement,
+    ExperienceElement,
     SkillsElement,
     PortfolioElement,
     ContactElement,

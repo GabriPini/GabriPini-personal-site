@@ -28,7 +28,7 @@ export default {
 }
 
 .custom-h {
-  background-image: linear-gradient(90deg, #141e30, #243b55);
-  filter: drop-shadow(2px 4px 6px black);
+  background-image: linear-gradient(90deg, #000428, #004e92);
+  filter: drop-shadow(2px 4px 6px #000);
 }
 </style>

@@ -58,7 +58,7 @@ export default {
 .logo {
   width: 50px;
   border-radius: 50%;
-  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  background-image: linear-gradient(-60deg, #ff0066 0%, #7f00ff 100%);
 }
 
 .navbar {
@@ -67,14 +67,14 @@ export default {
   a {
     font-weight: bold;
     &:hover {
-      color: #2bff00;
+      color: #00ffff;
     }
   }
 
   router-link {
     font-weight: bold;
     &:hover {
-      color: #2bff00;
+      color: #00ffff;
     }
   }
 }
