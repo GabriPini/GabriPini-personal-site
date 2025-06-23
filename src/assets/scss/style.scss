@@ -1,12 +1,16 @@
 .hello {
   background-color: rgb(62, 62, 62);
 }
+
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+}
 .bg-custom {
-  background-image: linear-gradient(-60deg, #ff5858 0%, #f09819 100%);
+  background-image: linear-gradient(45deg, #0f2027, #203a43, #2c5364);
   filter: drop-shadow(2px 4px 6px black);
 }
 .bg-custom2 {
-  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  background-image: linear-gradient(to right, #232526, #414345);
   filter: drop-shadow(2px 4px 6px black);
 }
 
