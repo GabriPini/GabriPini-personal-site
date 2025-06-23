@@ -3,17 +3,25 @@
 }
 
 body {
-  font-family: 'Inter', 'Poppins', Arial, sans-serif;
-  background-color: #121212;
-  color: #f1f1f1;
+  font-family: "Orbitron", "Inter", "Poppins", Arial, sans-serif;
+  background-color: #0a0a0a;
+  color: #e4e4e4;
 }
+
+/* neon style backgrounds */
 .bg-custom {
-  background-image: linear-gradient(135deg, #1f4037, #99f2c8);
-  filter: drop-shadow(2px 4px 6px black);
+  background-image: linear-gradient(135deg, #3a0ca3, #7209b7);
+  filter: drop-shadow(2px 4px 6px #000);
 }
 .bg-custom2 {
-  background-image: linear-gradient(135deg, #1d4350, #a43931);
-  filter: drop-shadow(2px 4px 6px black);
+  background-image: linear-gradient(135deg, #000428, #004e92);
+  filter: drop-shadow(2px 4px 6px #000);
+}
+
+/* new cyberpunk themed background */
+.bg-custom3 {
+  background-image: linear-gradient(135deg, #ff0066, #7f00ff);
+  filter: drop-shadow(2px 4px 6px #000);
 }
 
 .fa-2xl {
@@ -39,4 +47,15 @@ body {
   border-radius: 100px;
   background-image: linear-gradient(0deg, #ff5858 0%, #f09819 100%);
   box-shadow: inset 2px 2px 5px 0 rgba(rgb(0, 0, 0), 0.5);
+}
+
+/* neon glow utility */
+.cyber-glow {
+  text-shadow: 0 0 5px #ff0066, 0 0 10px #ff0066, 0 0 20px #ff0066,
+    0 0 40px #7f00ff;
+}
+
+/* small helper to limit width */
+.max-w-600 {
+  max-width: 600px;
 }
