@@ -32,4 +32,8 @@ AOS.init();
 new Vue({
   router,
   render: (h) => h(App),
+  mounted() {
+    const loader = document.getElementById("loading-screen");
+    if (loader) loader.style.display = "none";
+  },
 }).$mount("#app");

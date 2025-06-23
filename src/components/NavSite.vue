@@ -1,39 +1,28 @@
 <template>
-  <div>
-    <nav
-      class="navbar d-flex justify-content-center align-items-center navbar-dark bg-darker container"
-      data-aos="fade-down"
-    >
-      <div class="logo">
-        <router-link to="/"
-          ><img class="img-fluid" src="@/assets/img/avatar.png" alt=""
-        /></router-link>
-      </div>
-      <div class="container d-flex justify-content-center">
-        <div>
-          <ul
-            class="navbar-nav d-flex flex-row mt-2 flex-wrap justify-content-center align-items-center"
-          >
-            <li class="nav-item p-2" v-if="isHome">
-              <a class="nav-link" href="#about">About</a>
-            </li>
-            <li class="nav-item p-2" v-if="isHome">
-              <a class="nav-link" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item p-2" v-if="isHome">
-              <a class="nav-link" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item p-2" v-if="isHome">
-              <a class="nav-link" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item p-3">
-              <router-link to="/Game" class="decoration-none">Game</router-link>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-  </div>
+  <nav class="cyber-nav d-flex align-items-center" data-aos="fade-down">
+    <div class="logo me-4">
+      <router-link to="/"
+        ><img class="img-fluid" src="@/assets/img/avatar.png" alt=""
+      /></router-link>
+    </div>
+    <ul class="list-unstyled d-flex flex-row m-0 ms-auto">
+      <li class="p-2" v-if="isHome">
+        <a class="nav-link" href="#about">About</a>
+      </li>
+      <li class="p-2" v-if="isHome">
+        <a class="nav-link" href="#skills">Skills</a>
+      </li>
+      <li class="p-2" v-if="isHome">
+        <a class="nav-link" href="#portfolio">Portfolio</a>
+      </li>
+      <li class="p-2" v-if="isHome">
+        <a class="nav-link" href="#contact">Contact</a>
+      </li>
+      <li class="p-2">
+        <router-link to="/Game" class="decoration-none">Game</router-link>
+      </li>
+    </ul>
+  </nav>
 </template>
 
 <script>
@@ -61,21 +50,21 @@ export default {
   background-image: linear-gradient(-60deg, #ff0066 0%, #7f00ff 100%);
 }
 
-.navbar {
-  position: sticky;
-  top: 3%;
-  a {
-    font-weight: bold;
-    &:hover {
-      color: #00ffff;
-    }
+.nav-link {
+  text-decoration: none;
+  position: relative;
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 0;
+    height: 2px;
+    background: #40ff00;
+    transition: width 0.3s;
   }
-
-  router-link {
-    font-weight: bold;
-    &:hover {
-      color: #00ffff;
-    }
+  &:hover::after {
+    width: 100%;
   }
 }
 

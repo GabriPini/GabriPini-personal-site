@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="d-flex flex-column">
-    <NavSite class="col-12 custom-h"></NavSite>
+    <NavSite class="col-12"></NavSite>
 
     <router-view class="col-12" />
   </div>
@@ -27,8 +27,4 @@ export default {
   text-align: center;
 }
 
-.custom-h {
-  background-image: linear-gradient(90deg, #000428, #004e92);
-  filter: drop-shadow(2px 4px 6px #000);
-}
 </style>

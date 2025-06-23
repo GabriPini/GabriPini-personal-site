@@ -1,5 +1,5 @@
 <template>
-  <div id="experience" class="p-5 bg-custom3" data-aos="fade-up">
+  <div id="experience" class="p-5 bg-custom3 cyber-section" data-aos="fade-up">
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white pb-3">Experience</h2>
       <p class="lead text-white">A quick overview of my recent journey.</p>

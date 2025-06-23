@@ -1,5 +1,5 @@
 <template>
-  <div id="home" class="p-5 bg-custom">
+  <div id="home" class="p-5 bg-custom cyber-section">
     <div class="container text-center">
       <h2 class="display-3 fw-bold text-white cyber-glow">
         <em>Gabriele Pini</em>
